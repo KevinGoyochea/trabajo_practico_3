@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+	font-family: cursive; 
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: linear-gradient(to bottom, white 30%, #59B5D9);
+	height:100vh;
+}
+
+.titulo{
+	text-align: center;
+}
+.logo{
+	width: 160px;
+	height: auto;
+}
+
+.pie{
+	margin: 0;
+	padding: 10px;
+	background-color: #71C0DE;
+}
+
+.formato{
+	text-align: center;
+}
+
+table{
+	margin: 20px auto;
+}

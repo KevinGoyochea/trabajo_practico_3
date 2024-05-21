@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Registro cliente</title>
+	<link rel="stylesheet" href="../static/css/estilos.css" >
+</head>
+<body>
+	<header class="titulo">
+		<p><img class="logo" alt="imagen defectuosa" src="../static/image/R.png"></p>
+		<h1>Formulario Cliente</h1>
+	</header>
+	
+	<form action="#" method="post">
+		
+		<label for="dni" >DNI:</label>
+		<input type="number" id="dni" name="dni" required="required"><br>
+		
+		<label for="nombre">NOMBRE:</label>
+		<input type="text" id="nombre" name="nombre" required="required"><br>
+		
+		<label for="apellido">APELLIDO:</label>
+		<input type="text" id="apellido" name="apellido" required="required"><br>
+		
+		<label for="fechaNacimiento">FECHA DE NACIMIENTO:</label>
+		<input type="date" id="fechaNacimiento" name="fechaNacimiento" required="required"><br>
+		
+		<label for="masculino">GENERO</label><br>
+		<input type="radio" id="masculino" name="genero">Masculino<br>
+		<input type="radio" id="femenino" name="genero">Femenino<br>
+		<input type="radio" id="x" name="genero">X<br> 
+		
+		<label for="mail">CORREO ELECTRONICO</label>
+		<input type="email" id="mail" name="mail" required="required"><br>
+		
+		<label for="direccion">DOMICILIO</label>
+		<input type="text" id="direccion" name="direccion" required="required"><br>
+		
+		<label for="provincia">PROVINCIA</label>
+		<select id="provincia" name="provincia" required="required">
+			<option value="JUJUY">Jujuy</option>
+			<option value="SALTA">Salta</option>	
+			<option value="FORMOSA">Formosa</option>
+			<option value="CHACO">Chaco</option>
+			<option value="TUCUMAN">Tucuman</option>
+			<option value="SANTIAGO DEL ESTERO">Santiago del Estero</option>
+			<option value="CATAMARCA">Catamarca</option>
+			<option value="SANTA FE">Santa Fe</option>
+			<option value="MISIONES">Misiones</option>
+			<option value="CORRIENTES">Corrientes</option>
+			<option value="ENTRE RIOS">Entre Rios</option>
+			<option value="CORDOBA">Cordoba</option>
+			<option value="LA RIOJA">La rioja</option>
+			<option value="SAN JUAN">San Juan</option>
+			<option value="SAN LUIS">San Luis</option>
+			<option value="MENDOZA">Mendoza</option>
+			<option value="LA PAMPA">La pampa</option>
+			<option value="BUENOS AIRES">Buenos Aires</option>
+			<option value="NEUQUEN">Neuquen</option>
+			<option value="RIO NEGRO">Rio Negro</option>
+			<option value="CHUBUT">Chubut</option>
+			<option value="SANTA CRUZ">Santa Cruz</option>
+			<option value="TIERRA DEL FUEGO">Tierra del Fuego</option>	
+		</select><br>
+		
+		<label for="tel">TELEFONO CELULAR</label>
+		<input type="number" id="tel" name="tel"><br>
+		
+		<label for="categoria">Programacion Visual</label>
+		<input type="checkbox" id="categoria" name="categoria" required="required"><br>
+		<label for="categoria">Programacion Estructurada</label>
+		<input type="checkbox" id="categoria" name="categoria" required="required"><br>
+		<label for="categoria">Base de Datos</label>
+		<input type="checkbox" id="categoria" name="categoria" required="required"><br>
+		
+		<label for="sugerencias">Sugerencias para la empresa </label><br>
+		<textarea id="sugerencias" name="sugerencias" rows="10" cols="50" placeholder="Sugerencias ..."></textarea>
+		<input type="submit" value="Enviar"><br>
+		
+		<label for="contraseña">CONTRASEÑA</label>
+		<input type="password" id="contraseña" name="contraseña" required="required"><br> 
+		
+		<label for="aceptarCondiciones">Acepto los terminos y condiciones</label>
+		<input type="checkbox" id="aceptarCondiciones" name="aceptarCondiciones" required="required"><br>
+		
+		<label for="aceptarInformacion">Acepto recibir informacion relativa a la empresa</label>
+		<input type="checkbox" id="aceptarInformacion" name="aceptarInformacion" required="required"><br>
+		
+		<button type="submit">Enviar</button>
+	</form>
+
+
+</body>
+</html>
